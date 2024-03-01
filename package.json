@@ -19,6 +19,7 @@
     "bignumber.js": "^9.1.2",
     "ethers": "^5.6.6",
     "firebase": "^10.5.2",
+    "flowbite": "^2.3.0",
     "hamburger-react": "^2.5.0",
     "moment": "^2.29.4",
     "postcss-preset-env": "^9.1.3",
