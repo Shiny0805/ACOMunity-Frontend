@@ -11,7 +11,7 @@ export default function Home() {
         <div className="container m-auto py-[150px] flex justify-between items-center">
           <div class="w-1/2">
             <h1 class="text-6xl">
-              ACOMUnity - AGEMs
+              ACOMUnity DAO
             </h1>
             <p class="text-2xl py-10">
               Embark on a revolutionary journey with ACOMUnity, where freelancing and outsourcing meet blockchain innovation. Our platform, fueled by the AGEMS Token, transcends traditional boundaries, offering a decentralized space where talents thrive and opportunities abound.
