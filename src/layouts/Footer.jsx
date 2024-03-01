@@ -1,9 +1,10 @@
 import React from "react";
 import { socials } from "config";
 import moment from "moment";
+
 export default function Footer() {
   return (
-    <footer className="flex justify-around items-center absolute bottom-0 w-full mb-2">
+    <footer className="flex justify-around items-center w-full mb-2">
       <div className="text-md">
         @{moment().format("YYYY")} ACOMUnity AGEMS{" "}
         <span className="font-semibold mx-2">( v1.0 )</span> All Rights
