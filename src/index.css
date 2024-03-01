@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NippoBold';
+  src: local('NippoBold'), url('/public/fonts//NippoBold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NippoExtralight';
+  src: local('NippoExtralight'),
+    url('/public/fonts//NippoExtralight.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NippoLight';
+  src: local('NippoLight'),
+    url('/public/fonts//NippoLight.ttf') format('opentype');
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f1c1c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffda0a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb10a;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'NippoLight' !important;
+  background-color: #16171E;
+  color: white;
+}
+
+.bg-main-100 {
+  background-color: #1F212A !important;
+}
+
+.bg-main-200 {
+  background-color: #16171E !important;
+}
+
+.bg-yellow-main {
+  background-color: #FFC412 !important;
+}
+
+.text-yellow-main {
+  color: #FFC412 !important;
+}
+
+.buy_card {
+  display: block;
+  padding: 1rem;
+  background-color: #02080e4f;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.main_btn {
+  padding: 10px 20px;
+  background-color: #FFC412;
+  box-shadow: 0 3px 4px #011123;
+  color:black;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.main_btn:hover {
+  box-shadow: 0 1px 1px #011123;
+  background-color: rgb(235 155 16 /0.9);
+  color: black;
+}
