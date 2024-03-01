@@ -3,3 +3,24 @@
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Make sure the video stays behind other content */
+  }
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video_content {
+    z-index: 1; /* Ensure content appears above the video */
+}

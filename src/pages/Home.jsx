@@ -1,10 +1,12 @@
 import React from "react";
 import TrendingCampaigns from "components/HomeComponents/TrendingCampaigns";
+import Introduction from "components/HomeComponents/Introduction";
 import './style.css';
 
 export default function Home() {
   return (
     <div>
+      <Introduction />
       <div className="home_introduction_banner">
         <div className="container m-auto py-[150px] flex justify-between items-center">
           <div class="w-1/2">
