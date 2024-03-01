@@ -6,9 +6,8 @@ export default function Introduction() {
   return (
     <div>
         <div id="video-container">
-            <video autoplay muted loop>
+            <video autoplay="autoplay" muted loop>
                 <source src="/assets/Home/introduction.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
             </video>
         </div>
 
@@ -27,15 +26,15 @@ export default function Introduction() {
                         Discover ACOMUnity.com:
                     </p>
 
-                    <p>
+                    <p class="pl-5">
                          • Seamlessly Manage Tasks with our Intuitive Platform.
                     </p>
 
-                    <p>
+                    <p class="pl-5">
                          • Receive Payments Securely in AGEMS Tokens.
                     </p>
 
-                    <p>
+                    <p class="pl-5">
                          • Join a Vibrant Community Forum Fostering Collaboration.
                     </p>
                 </div>
