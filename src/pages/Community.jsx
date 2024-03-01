@@ -23,7 +23,7 @@ import { NUMBER_OF_FARMS_VISIBLE } from "config";
 import { useFarms, usePollFarmsData, usePrice3WiLDUsdc } from "state/hooks";
 import { useAccount } from "wagmi";
 
-export default function Farms() {
+export default function Community() {
   const { pathname } = useLocation();
   const { address } = useAccount();
   const isArchived = pathname.includes("archived");

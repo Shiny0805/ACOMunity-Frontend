@@ -1,37 +1,47 @@
 import React, { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-const Dashboard = lazy(() => import("pages/Dashboard"));
-const MintNFT = lazy(() => import("pages/MintNFT"));
+const Home = lazy(() => import("pages/Home"));
+const AboutUs = lazy(() => import("pages/AboutUs"));
+const AgemsToken = lazy(() => import("pages/AgemsToken"));
+const Technology = lazy(() => import("pages/Technology"));
+const Community = lazy(() => import("pages/Community"));
+const Blog = lazy(() => import("pages/Blog"));
+const Partnerships = lazy(() => import("pages/Partnerships"));
 const NotFound = lazy(() => import("pages/Notfound"));
-const Explorer = lazy(() => import("pages/Explorer"));
-const NFToffer = lazy(() => import("pages/NFToffer"));
-const Game = lazy(() => import("pages/ComingSoon"));
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard />,
+    element: <Home />,
   },
   {
-    path: "/dashboard",
-    element: <Dashboard />,
+    path: "/home",
+    element: <Home />,
   },
   {
-    path: "/mintnft",
-    element: <MintNFT />,
+    path: "/about-us",
+    element: <AboutUs />,
   },
   {
-    path: "/explorer",
-    element: <Explorer />,
+    path: "/agems-token",
+    element: <AgemsToken />,
   },
   {
-    path: "/game",
-    element: <Game />,
+    path: "/technology",
+    element: <Technology />,
   },
   {
-    path: "/nftoffer/:id",
-    element: <NFToffer />
+    path: "/community",
+    element: <Community />
+  },
+  {
+    path: "/blog",
+    element: <Blog />
+  },
+  {
+    path: "/partnerships",
+    element: <Partnerships />
   },
   {
     path: "*",

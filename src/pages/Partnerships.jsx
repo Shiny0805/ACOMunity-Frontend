@@ -7,7 +7,8 @@ import useRefresh from "hooks/useRefresh";
 import Loading from "components/Loading";
 import { didUserReject } from "utils/customHelpers";
 import { useEthersSigner } from "hooks/useEthers";
-export default function Zap() {
+
+export default function Partnerships() {
   const { address } = useAccount();
   const [nfts, setNfts] = useState(0);
   const [myTokenIds, setMyTokenIds] = useState([]);

@@ -74,19 +74,36 @@ export const socials = [
 
 export const routes = [
   {
-    name: "DASHBOARD",
+    name: "Home",
     url: "/",
   },
   {
-    name: "MINT NFT",
-    url: "/mintnft",
+    name: "About Us",
+    url: "/about-us",
   },
   {
-    name: "EXPLORER",
-    url: "/explorer",
+    name: "AGEMS Token",
+    url: "/agems-token",
   },
   {
-    name: "GAME",
-    url: "/game",
+    name: "Technology",
+    url: "/technology",
   },
+  {
+    name: "Platform",
+    dropdownItems: [
+      {
+        name: "Community",
+        url: "/community",
+      },
+      {
+        name: "Blog/Updates",
+        url: "/blog",
+      },
+      {
+        name: "Partnerships",
+        url: "/partnerships",
+      }
+    ]
+  }
 ];

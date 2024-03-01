@@ -19,7 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 
-export default function NFToffer() {
+export default function Technology() {
     const { id } = useParams();
     const { address } = useAccount();
     const [makeOfferProcessing, setMakeOfferProcessing] = useState(false);

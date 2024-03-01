@@ -3,7 +3,7 @@ import React from "react";
   import DDawgsImage from "components/DDawgsComponents/Image";
   import DDawgsBasicGrid from "components/DDawgsComponents/BasicGrid";
   
-  export default function Dashboard() {
+  export default function AboutUs() {
 
     return (
       <div className="flex justify-center w-full md:max-w-7xl mt-12">

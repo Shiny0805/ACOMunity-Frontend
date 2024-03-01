@@ -6,7 +6,7 @@ import Loading from "components/Loading";
 import { useEthersSigner } from "hooks/useEthers";
 import useRefresh from "hooks/useRefresh";
 
-export default function Explorer() {
+export default function AgemsToken() {
   const { address } = useAccount();
   const NFTmintContract = useNFTmintContract();
   const NFTmarketplaceContract = useNFTmarketplaceContract();

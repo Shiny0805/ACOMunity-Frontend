@@ -14,7 +14,7 @@ export default function Header() {
           <div className="flex justify-between">
             <div className="hidden sm:block logo">
               <a href="/">
-                <img src="/assets/updated_logo.png" alt="logo" width={70} height={70} style={{ padding: 10 }} />
+                <img src="/assets/logo.png" alt="logo" width={170} height={170} style={{ padding: 10 }} />
               </a>
             </div>
             <div
@@ -37,17 +37,6 @@ export default function Header() {
                     <img src="/assets/hover.png" alt="" />
                   </li>
                 ))}
-                {/* <li className={`list_item`}>
-                  <a
-                    href="https://lodgedocs.gitbook.io/3wild-bsc-farm/"
-                    target="_blank"
-                    className={`p-3`}
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    Docs
-                  </a>
-                </li> */}
               </ul>
             </div>
 

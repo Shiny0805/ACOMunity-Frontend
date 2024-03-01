@@ -13,7 +13,7 @@ import { ethers } from "ethers";
 import { getRouterAddress } from "utils/addressHelpers";
 import Loading from "components/Loading";
 
-export default function Liquidity() {
+export default function Blog() {
   const [states, setStates] = useState(false);
   const [openA, setOpenA] = useState(false);
   const [openB, setOpenB] = useState(false);
