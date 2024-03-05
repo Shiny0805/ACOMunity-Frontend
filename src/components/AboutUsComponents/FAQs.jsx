@@ -80,7 +80,7 @@ const FAQsData = [
                         <Disclosure key={index}>
                             {({ open }) => (
                             <>
-                                <Disclosure.Button class='flex w-full justify-between border border-black rounded-lg bg-purple-100 px-4 py-2 text-left text-2xl font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75'>
+                                <Disclosure.Button class='flex w-full mb-1 justify-between border border-black rounded-lg bg-purple-100 px-4 py-2 text-left text-2xl font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75'>
                                 <span>
                                     {data.title}
                                 </span>
