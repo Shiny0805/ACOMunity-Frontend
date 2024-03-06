@@ -11,22 +11,22 @@ import React, { useState } from "react";
     }
 
     return (
-    <div class='container m-auto'>
+    <div class='w-3/4 m-auto rounded-sm border p-3'>
         <div class='text-4xl text-center p-10'>
             Contact Us
         </div>
         
-        <div class='w-3/4 m-auto'>
+        <div>
             <form>
                 <div class='flex justify-between items-center'>
-                    <div class='w-1/2'>
+                    <div class='w-1/2 p-1 text-2xl'>
                         <label>First Name</label>
-                        <input class='w-full' placeholder="First Name" />
+                        <input class='w-full rounded-lg p-1' placeholder="First Name" />
                     </div>
 
-                    <div class='w-1/2'>
+                    <div class='w-1/2 p-1 text-2xl'>
                         <label>Last Name</label>
-                        <input class='w-full' placeholder="Last Name" />
+                        <input class='w-full rounded-lg p-1' placeholder="Last Name" />
                     </div>
                 </div>
                 

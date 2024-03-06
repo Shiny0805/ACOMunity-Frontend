@@ -68,7 +68,7 @@ const FAQsData = [
   export default function FAQs() {
 
     return (
-    <div class='container m-auto'>
+    <div class='container m-auto mb-20'>
         <div class='text-4xl text-center p-10'>
             FAQs
         </div>
