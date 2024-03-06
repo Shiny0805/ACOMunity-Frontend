@@ -45,10 +45,15 @@ import React, { useState } from "react";
                 <div class='mb-10'>
                     <div class='p-1 text-2xl'>
                         <label>Cover Letter</label>
-                        <input type='text' id='cover_letter' class='w-full rounded-lg p-1 text-black' placeholder="" />
+                        <input type='text' id='cover_letter' class='w-full rounded-lg p-1 text-black h-[100px]' placeholder="" />
                     </div>
                 </div>
 
+                <div class='mb-10 flex justify-center'>
+                    <div class='bg-lime-500	 hover:bg-lime-600 px-10 py-2 rounded-lg cursor-pointer'>
+                        <button type='button'>Submit</button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
