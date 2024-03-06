@@ -85,3 +85,9 @@ video {
     margin-bottom: 20px;
     color: white;
 }
+
+.aboutus_banner {
+    background: url('/public/assets/AboutUs/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
