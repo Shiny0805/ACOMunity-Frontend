@@ -90,4 +90,10 @@ video {
     background: url('/public/assets/AboutUs/banner.jpg');
     background-repeat: no-repeat;
     background-size: auto;
+    animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
