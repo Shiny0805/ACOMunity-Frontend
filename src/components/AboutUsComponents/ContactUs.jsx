@@ -30,18 +30,24 @@ import React, { useState } from "react";
                     </div>
                 </div>
 
-                <div class='flex justify-between items-center'>
+                <div class='flex justify-between items-center mb-10'>
                     <div class='w-1/2 p-1 text-2xl'>
                         <label>Email</label>
-                        <input type='email' id='email' class='w-full rounded-lg p-1' placeholder="Your email" />
+                        <input type='email' id='email' class='w-full rounded-lg p-1 text-black' placeholder="Your email" />
                     </div>
 
                     <div class='w-1/2 p-1 text-2xl'>
                         <label>Phone Number</label>
-                        <input type='number' id='phone_number' class='w-full rounded-lg p-1' placeholder="+1 (239) 494 5915" />
+                        <input type='number' id='phone_number' class='w-full rounded-lg p-1 text-black' placeholder="+1 (239) 494 5915" />
                     </div>
                 </div>
-                
+
+                <div class='mb-10'>
+                    <div class='p-1 text-2xl'>
+                        <label>Cover Letter</label>
+                        <input type='text' id='cover_letter' class='w-full rounded-lg p-1 text-black' placeholder="" />
+                    </div>
+                </div>
 
             </form>
         </div>
