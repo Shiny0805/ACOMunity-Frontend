@@ -90,7 +90,7 @@ video {
     background: url('/public/assets/AboutUs/banner.jpg');
     background-repeat: no-repeat;
     background-size: auto;
-    animation: fadeIn 7s;
+    animation: fadeIn 6s;
 }
 
 @keyframes fadeIn {
